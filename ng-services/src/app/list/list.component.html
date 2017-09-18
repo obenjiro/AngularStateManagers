@@ -1,0 +1,7 @@
+<h4>List</h4>
+<ul>
+  <li *ngFor="let item of listService.items">
+    {{ item }} <button (click)="add(item)">Add</button>
+  </li>
+</ul>
+

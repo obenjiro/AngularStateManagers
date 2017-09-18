@@ -1,0 +1,7 @@
+<h4>Other List</h4>
+<ul>
+  <li *ngFor="let item of otherItems$ | async">
+    {{ item }} <button (click)="remove(item)">Remove</button>
+  </li>
+</ul>
+
